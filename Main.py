@@ -50,7 +50,7 @@ def handle_search_product(message):
         messages.append("NEXT REQUEST")
         
         # Generate response using the generative AI model
-        response = palm.chat(
+        response = katsic.chat(
             **defaults,
             context=context,
             examples=examples,
