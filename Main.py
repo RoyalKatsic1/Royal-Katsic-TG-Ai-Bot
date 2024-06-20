@@ -2,16 +2,16 @@ import google.generativeai as Gemini
 import telebot
 
 # Replace with your Telegram Bot token
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7252003737:AAHj2qNq5OMu8lEqrOAID_Q9_3VCo32k1R4")
 
 # Replace with your Gemini API key
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("AIzaSyCDILzurQ1o7f-98cBZrSenRqtVUbTD9DI")
 
 # Initialize Telegram Bot
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot('7252003737:AAHj2qNq5OMu8lEqrOAID_Q9_3VCo32k1R4')
 
 # Initialize Gemini Client
-client = GFPTClient(api_key=GEMINI_API_KEY)
+client = Gemini(api_key='AIzaSyCDILzurQ1o7f-98cBZrSenRqtVUbTD9DI')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
