@@ -1,4 +1,4 @@
-     import os
+import google.generativeai as gemini
 
      bind = "0.0.0.0:" + os.environ.get("PORT", "10000")
      workers = 2  # Adjust based on your needs 
