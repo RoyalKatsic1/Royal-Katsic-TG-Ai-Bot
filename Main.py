@@ -1,7 +1,5 @@
-import os
+import google.generativeai as Gemini
 import telebot
-
-from google.generativeai import GFPTClient
 
 # Replace with your Telegram Bot token
 BOT_TOKEN = os.getenv("BOT_TOKEN")
