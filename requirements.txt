@@ -2,5 +2,5 @@ telebot
 google-auth
 google-auth-oauthlib
 google-auth-httplib2
-python
+python==3.0
 gunicorn
