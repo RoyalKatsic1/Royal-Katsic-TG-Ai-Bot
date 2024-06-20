@@ -4,4 +4,4 @@
      workers = 2  # Adjust based on your needs 
 
      # Specify the correct module and callable
-     wsgi_app = "main:app"
+     wsgi_app = "Main:app"
