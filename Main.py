@@ -2,13 +2,13 @@ import google.generativeai as gemini
 import telebot
 
 # Your Telegram bot token
-TOKEN = '5636862844:AAGG7jioAoBUoe3KINGbZpQZQFMCBAky1oo'
+TOKEN = '7252003737:AAHj2qNq5OMu8lEqrOAID_Q9_3VCo32k1R4'
 
 # Configure the generative AI API key
 gemini.configure(api_key="AIzaSyCDILzurQ1o7f-98cBZrSenRqtVUbTD9DI")
 
 # Create a Telegram bot instance
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot('7252003737:AAHj2qNq5OMu8lEqrOAID_Q9_3VCo32k1R4')
 
 # Handle /start, /help, and /hello commands
 @bot.message_handler(commands=['start', 'help', 'hello'])
