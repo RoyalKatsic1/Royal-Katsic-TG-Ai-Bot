@@ -362,7 +362,7 @@ async def generate_text_from_image(
     )
 
     try:
-        response = response = (
+        response = response = ()
             gemini_image_chat.send_image(update.message.caption)
             .encode("utf-8")
             .decode("utf-8", "ignore")
