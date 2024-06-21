@@ -64,7 +64,6 @@ def create_table(conn):
     except Error as e:
         print(e)
 
-
 def create_conversation(conn, conversation):
     """
     Create a new conversation into the conversations table
