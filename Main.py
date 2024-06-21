@@ -6,7 +6,7 @@ from dotenv import load_dotenv, dotenv_values
 load_dotenv()
 
 # Replace `os.getenv("TELEGRAM_TOKEN")` with your own token
-bot = telebot.TeleBot(os.getenv("7252003737:AAHj2qNq5OMu8lEqrOAID_Q9_3VCo32k1R4", parse_mode=None)
+bot = telebot.TeleBot(os.getenv("7252003737:AAHj2qNq5OMu8lEqrOAID_Q9_3VCo32k1R4"), parse_mode=None)
 
 # Replace `os.getenv("GENAI_API_KEY")` with your own API key
 genai.configure(api_key=os.getenv("AIzaSyCDILzurQ1o7f-98cBZrSenRqtVUbTD9DI"))
