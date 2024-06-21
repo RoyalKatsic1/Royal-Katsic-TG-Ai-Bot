@@ -116,7 +116,7 @@ def create_conv_handler():
 
 
 def main() -> None:
-    application = Application.builder().token(os.getenv("TELEGRAM_BOT_TOKEN")).build()
+    application = Application.builder().token(os.getenv("7252003737:AAHj2qNq5OMu8lEqrOAID_Q9_3VCo32k1R4")).build()
 
     conv_handler = create_conv_handler()
     application.add_handler(conv_handler)
