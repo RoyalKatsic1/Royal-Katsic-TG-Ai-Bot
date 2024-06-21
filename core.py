@@ -50,7 +50,7 @@ class GeminiChat:
             return "".join([text for text in response.text])
         except Exception as e:
             self._handle_exception("send image", e)
-            return "Couldn't reach out to Google Gemini. Try Again..."
+            return "Couldn't reach out to Royal Katsic Ai. Try Again..."
 
     def start_chat(self) -> None:
         """Starts a new chat session."""
