@@ -24,7 +24,7 @@ def create_table(conn):
     """
     try:
         c = conn.cursor()
-        c.execute(
+        c.execute()
 import sqlite3
 from sqlite3 import Error
 
