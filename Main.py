@@ -1,4 +1,4 @@
-import google.generativeai as gemini
+import google.generativeai as genai
 import telebot
 
 # Your Telegram bot token
@@ -50,7 +50,7 @@ def handle_search_product(message):
         messages.append("NEXT REQUEST")
         
         # Generate response using the generative AI model
-        response = katsic.chat(
+        response = generate_response.chat(
             **defaults,
             context=context,
             examples=examples,
