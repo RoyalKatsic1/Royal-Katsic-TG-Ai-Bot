@@ -1,4 +1,4 @@
-# Configuration file for Gunicorn
+import os
 
 bind = "0.0.0.0:{}".format(os.environ.get("PORT", 3000))  # Bind to all interfaces and extracted port
 workers = 3  # Adjust the number of worker processes as needed
