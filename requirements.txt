@@ -25,5 +25,4 @@ rsa==4.9
 six==1.16.0
 telebot==0.0.5
 urllib3==1.26.16
-generate_response
-streamlit
+dotenv
