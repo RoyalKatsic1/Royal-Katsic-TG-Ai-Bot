@@ -2,7 +2,6 @@ import telebot
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv, dotenv_values
-genai.title = 'Royal Katsic Ai'
 
 load_dotenv()
 
